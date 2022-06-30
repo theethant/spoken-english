@@ -21,7 +21,7 @@ $auth = Auth::check();
             <a href="home.php" class="navbar-brand text-light">&Sopf; &Eopf;</a>
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a href="#" class="nav-link me-5">| <?= $auth->name ?> |</a>
+                    <a href="#" class="nav-link me-5">|&#9865; <?= $auth->name ?> |</a>
                 </li>
                 <li class="nav-item">
                     <a href="actions/logout.php" class="nav-link border border-secondary rounded-pill">&LeftArrowBar; Logout</a>
